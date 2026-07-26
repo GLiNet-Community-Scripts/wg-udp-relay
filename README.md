@@ -362,7 +362,7 @@ For optimal throughput (200-300+ Mbps), system-level tuning is required. **See t
 - With relay-only tuning: 200-300+ Mbps with zero packet loss
 - Real test results: 301.89 Mbps down / 164.73 Mbps up with relay-only tuning
 
-**10-minute setup:**
+**2-minute setup:**
 ```bash
 # On relay VPS only
 sudo tee /etc/sysctl.d/99-network-tuning.conf << EOF
